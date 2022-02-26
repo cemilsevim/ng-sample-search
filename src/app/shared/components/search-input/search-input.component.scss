@@ -1,0 +1,23 @@
+$text-color: #eee;
+$placeholder-color: rgb(100, 102, 122);
+
+.search-icon {
+  color: rgb(152, 150, 168);
+  margin-right: 10px;
+}
+
+.search-input {
+    color: $text-color;
+}
+
+.search-form-field {
+  ::ng-deep {
+    .mat-form-field-label {
+      color: $placeholder-color;
+    }
+
+    .mat-form-field-underline {
+        background-color: $placeholder-color;
+    }
+  }
+}

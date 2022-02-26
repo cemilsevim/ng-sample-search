@@ -1,0 +1,9 @@
+app-client-list-item {
+  &:nth-child(even) {
+    ::ng-deep {
+      > div {
+        background-color: rgb(232, 232, 232);
+      }
+    }
+  }
+}

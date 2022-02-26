@@ -1,1 +1,6 @@
-<p>header works!</p>
+<header>
+  <mat-toolbar>
+    <app-search-input (onChange)="onChange($event)" class="w-100"></app-search-input>
+  </mat-toolbar>
+  <app-client-list [clients]="clients"></app-client-list>
+</header>
